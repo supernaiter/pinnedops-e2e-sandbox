@@ -1,0 +1,31 @@
+{
+  "scan_date": "2025-08-24T20:32:26.165931",
+  "total_actions": 2,
+  "unpinned_actions": 2,
+  "actions": [
+    {
+      "file": ".github/workflows/e2e_apply.yml",
+      "job": "ci",
+      "step": "Unknown",
+      "step_index": 0,
+      "uses": "actions/checkout@v4",
+      "action_name": "actions/checkout",
+      "version": "v4",
+      "is_pinned": false,
+      "is_allowed": false,
+      "has_issue": true
+    },
+    {
+      "file": ".github/workflows/e2e_apply.yml",
+      "job": "ci",
+      "step": "Unknown",
+      "step_index": 1,
+      "uses": "actions/setup-python@v5",
+      "action_name": "actions/setup-python",
+      "version": "v5",
+      "is_pinned": false,
+      "is_allowed": false,
+      "has_issue": true
+    }
+  ]
+}

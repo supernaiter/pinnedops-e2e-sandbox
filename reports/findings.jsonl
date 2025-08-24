@@ -1,0 +1,2 @@
+{"repo": ".", "workflow": ".github/workflows/e2e_apply.yml", "loc": "jobs.ci.steps[0]", "uses": "actions/checkout@v4", "ref": "v4", "rule": "PO-UNPINNED-ACTION", "pinned": false, "source": "workflow"}
+{"repo": ".", "workflow": ".github/workflows/e2e_apply.yml", "loc": "jobs.ci.steps[1]", "uses": "actions/setup-python@v5", "ref": "v5", "rule": "PO-UNPINNED-ACTION", "pinned": false, "source": "workflow"}
